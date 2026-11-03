@@ -15,7 +15,7 @@ nobody knows who actually turned up versus who said they would.
 - **An attendee** sees what is on, says they are coming, and can change their mind.
 - **An organiser** creates an event with a capacity, and marks people present on the day.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Sign in. Organisers create and edit events; everyone else can only RSVP.
 - An event has a title, description, date and time, venue and capacity.
@@ -29,9 +29,9 @@ nobody knows who actually turned up versus who said they would.
 `user`, `event`, `rsvp` (user, event, status), `attendance` (or a `checked_in_at` column on `rsvp`).
 Three or four tables.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static event list and detail page, responsive |
 | 2 | React and TypeScript: list, filter by upcoming or past, an RSVP button with local state |
@@ -54,5 +54,5 @@ page needing no sign-in, a CSV export of the attendee list.
 
 ## Why this scores well
 
-It is small enough that you can finish the minimum by Week 3 and spend Week 4 on tests, polish and
-a confident demo. Mentors would rather see that than an ambitious half-built thing.
+It is small enough that you can finish the minimum by stage 3 and spend stage 4 on tests, polish and
+a confident demo. That reads far better than an ambitious half-built thing.

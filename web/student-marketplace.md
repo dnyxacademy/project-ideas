@@ -14,7 +14,7 @@ groups where listings scroll away in an hour and nobody can search last week's m
 - **A seller** lists an item in under a minute, with a photo and a price.
 - **A buyer** searches by category and price, then contacts the seller.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Sign in with a college email.
 - Create, edit and delete your own listing: title, description, price, category, one photo.
@@ -27,9 +27,9 @@ groups where listings scroll away in an hour and nobody can search last week's m
 `user`, `listing` (seller, title, price, category, status), `category`, and `message` or `interest`
 if you add contact in-app. Three tables minimum, four if you add messaging.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static listing grid and a detail page, responsive, with placeholder items |
 | 2 | React and TypeScript: the grid, filters and search over mock data |
@@ -46,7 +46,7 @@ hostel blocks.
 - **Image upload** is the trap. Files do not belong in Postgres. Use a free object store or a
   hosted image service, keep the URL in the row, and limit the file size. Budget a full day.
 - **Ownership checks** must be on the server. Hiding the edit button is not security — someone will
-  call your API directly, and a mentor will.
+  call your API directly, and anyone reviewing it will.
 - **Search** starts as `WHERE title ILIKE '%term%'`. That is fine. Say in your README that it does
   not scale, and you have made an honest limitations section.
 

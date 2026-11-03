@@ -10,7 +10,7 @@ the institution's own policy says to do about it.
 By the time a student stops attending, the reasons have been visible for weeks — attendance,
 assignment submissions, marks sliding. A class teacher with 60 students cannot watch all of it.
 
-## Weeks 1 and 2: the model
+## Stages 1 and 2: the model
 
 **Predict:** will this student pass, fail or drop out this term?
 
@@ -18,15 +18,15 @@ assignment submissions, marks sliding. A class teacher with 60 students cannot w
 previous grades, study hours, family background, extra tuition. Search Kaggle for student
 performance or dropout data, or use your own institution's anonymised records with permission.
 
-**Baseline (Week 1):** logistic regression on attendance and internal marks. Note the accuracy, and
+**Baseline (stage 1):** logistic regression on attendance and internal marks. Note the accuracy, and
 then note the F1 for the at-risk class specifically — this is the metric that matters, and it is
 usually much worse than the accuracy.
 
-**Week 2:** a small network on the same features. Say honestly whether it beat the baseline. On
-tabular data of a few thousand rows it often will not, and writing that down is worth more marks
+**Stage 2:** a small network on the same features. Say honestly whether it beat the baseline. On
+tabular data of a few thousand rows it often will not, and writing that down is worth far more
 than hiding it.
 
-## Weeks 3 and 4: the assistant
+## Stages 3 and 4: the assistant
 
 **Documents:** the academic regulations, the attendance policy, the examination rules, the
 scholarship and fee-concession criteria. Every institution publishes these as PDFs.
@@ -35,10 +35,10 @@ scholarship and fee-concession criteria. Every institution publishes these as PD
 student is detained?" "Which concessions apply to a first-generation learner?" — each with a
 citation to the clause.
 
-**Week 4 agent, three tools:**
+**Stage 4 agent, three tools:**
 
-1. `get_student_risk(student_id)` — your Week 2 model
-2. `search_policy(question)` — your Week 3 retrieval
+1. `get_student_risk(student_id)` — your stage 2 model
+2. `search_policy(question)` — your stage 3 retrieval
 3. `draft_message(student_id, concern)` — writes the note a teacher would send home
 4. Deliver one of them through **MCP**
 

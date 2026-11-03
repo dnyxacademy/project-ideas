@@ -7,27 +7,27 @@ when it should.
 
 **Read this first.** This is the hardest project here, and not because of the code. A health tool
 that sounds confident and is wrong can hurt someone. If you pick it, your project is judged partly
-on how well it refuses. If that does not appeal, pick another domain — nobody loses marks for it.
+on how well it refuses. If that does not appeal, pick another domain — there is no penalty for it.
 
 ## The problem
 
 Someone with a symptom searches the web and gets a mix of reliable guidance, advertising and
 nonsense, with no way to tell which is which.
 
-## Weeks 1 and 2: the model
+## Stages 1 and 2: the model
 
 **Predict:** a risk or outcome from tabular clinical features — diabetes, heart disease, a liver
 condition. These teaching datasets (Pima, the UCI heart disease set, and similar) are small, clean
 and well documented.
 
-**Baseline (Week 1):** logistic regression, and a careful look at the confusion matrix. In health,
+**Baseline (stage 1):** logistic regression, and a careful look at the confusion matrix. In health,
 a false negative — telling someone they are fine when they are not — is the error that matters.
 Optimise recall, and say why.
 
-**Week 2:** a network, or a transfer-learned image model on a public chest X-ray or skin-lesion set
+**Stage 2:** a network, or a transfer-learned image model on a public chest X-ray or skin-lesion set
 if you want the computer-vision path.
 
-## Weeks 3 and 4: the assistant
+## Stages 3 and 4: the assistant
 
 **Documents:** public clinical guidance — WHO fact sheets, national health-ministry guidelines,
 public CDC or NICE pages, ICMR documents. Use only published, citable guidance. Never scrape a
@@ -37,7 +37,7 @@ forum.
 vaccination schedule for an infant?" — always with the source, and always with "see a doctor" where
 the guidance says so.
 
-**Week 4 agent, three tools:**
+**Stage 4 agent, three tools:**
 
 1. `assess_risk(features)` — your model, framed as a screening score and never a diagnosis
 2. `search_guidance(question)` — your retrieval
@@ -56,7 +56,7 @@ Build and test these explicitly, and demo them:
 - **Out of scope** — pregnancy, children's dosing, a mental health crisis — gets its own careful
   answer with a helpline, not a guess.
 
-Of your fifteen test questions in Week 3, make at least five things it **should refuse**. A model
+Of your fifteen test questions in stage 3, make at least five things it **should refuse**. A model
 that answers all fifteen has failed.
 
 ## What will bite you

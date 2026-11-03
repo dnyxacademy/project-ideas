@@ -10,7 +10,7 @@ A claims team reads every claim in the order it arrived. Simple ones wait behind
 and the question that decides most cases — what does the policy actually cover — means searching a
 sixty-page document under time pressure.
 
-## Weeks 1 and 2: the model
+## Stages 1 and 2: the model
 
 **Predict:** is this claim likely to be straightforward, or does it need a human review?
 
@@ -18,14 +18,14 @@ sixty-page document under time pressure.
 amount, policy age, incident type, vehicle or property details). Credit default and loan approval
 datasets work just as well if you prefer lending to insurance.
 
-**Baseline (Week 1):** logistic regression. These datasets are **badly unbalanced** — perhaps two
+**Baseline (stage 1):** logistic regression. These datasets are **badly unbalanced** — perhaps two
 percent of claims are flagged — so a model that says "fine" to everything scores 98 percent
 accuracy and is worthless. Showing that you noticed, and switching to precision, recall and the
-confusion matrix, is half the marks for Week 1.
+confusion matrix, is half the value of that first stage.
 
-**Week 2:** a network, plus a word on class weighting or resampling and whether it helped.
+**Stage 2:** a network, plus a word on class weighting or resampling and whether it helped.
 
-## Weeks 3 and 4: the assistant
+## Stages 3 and 4: the assistant
 
 **Documents:** policy wordings, IRDAI circulars, exclusion lists, claim procedure manuals. Insurers
 publish policy documents openly, and they are exactly the dense, clause-numbered text that
@@ -35,7 +35,7 @@ retrieval is good at.
 waiting period for a pre-existing condition?" "What documents does a claim need?" — with the clause
 number cited, because without one the answer is useless to a claims officer.
 
-**Week 4 agent, three tools:**
+**Stage 4 agent, three tools:**
 
 1. `score_claim(claim)` — your model
 2. `search_policy(question)` — your retrieval
@@ -53,4 +53,4 @@ number cited, because without one the answer is useless to a claims officer.
 ## Why this scores well
 
 Clause-numbered documents make citation quality easy to judge — either the clause it quoted says
-what it claims, or it does not — so your fifteen test questions in Week 3 have crisp right answers.
+what it claims, or it does not — so your fifteen test questions in stage 3 have crisp right answers.

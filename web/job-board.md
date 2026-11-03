@@ -16,7 +16,7 @@ filtering and finds four relevant posts.
 - **An employer** posts a role and reads applications in one place.
 - **An admin** approves employers, so the board does not fill with spam.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Three roles: candidate, employer, admin. Sign-in tells them apart.
 - An employer posts a job: title, description, location, remote flag, salary range, deadline.
@@ -29,9 +29,9 @@ filtering and finds four relevant posts.
 `user`, `employer` (company profile), `job`, `application` (job, candidate, status). Four tables
 with real relations — comfortably over the bar.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static job list and detail page, responsive |
 | 2 | React and TypeScript: list, filters, a job detail route |
@@ -49,10 +49,10 @@ company page, an application status timeline.
   asking, and do they own this?" Write that check once as middleware, not in fifteen handlers.
 - **Filter combinations.** Four filters at once means dynamic SQL. Let Prisma build it, and test
   the awkward combinations.
-- **Scope.** This is the biggest project in the list. If Week 3 slips, drop the admin role and say
+- **Scope.** This is the biggest project in the list. If stage 3 slips, drop the admin role and say
   so in your README. A finished two-role board beats a broken three-role one.
 
 ## Why this scores well
 
-Role-based access is exactly what Week 4 teaches, and "an employer cannot see another employer's
+Role-based access is exactly what stage 4 is about, and "an employer cannot see another employer's
 applications" is the kind of test that impresses a reviewer.

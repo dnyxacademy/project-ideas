@@ -2,7 +2,7 @@
 
 **Track:** web · **Level:** comfortable · **Domain:** healthcare, scheduling
 
-The safest choice in the list. The rules are obvious, so you spend your four weeks learning the
+The safest choice in the list. The rules are obvious, so you spend your time learning the
 stack rather than arguing about requirements.
 
 ## The problem
@@ -15,7 +15,7 @@ when it gets busy, and cannot tell a caller what is free next Tuesday without fl
 - **A patient** wants the first free slot with a particular doctor, without calling.
 - **The receptionist** wants today's list, and to block a slot when a doctor is away.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Sign in. A patient sees only their own appointments; staff see everyone's.
 - Pick a doctor, see free slots for the next 14 days, book one, get it confirmed on screen.
@@ -28,9 +28,9 @@ when it gets busy, and cannot tell a caller what is free next Tuesday without fl
 `doctor`, `patient` (one per user), `appointment` (doctor, patient, start, end, status), and
 `availability` or `time_off`. Four tables, which clears the three-table bar.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static pages: the clinic, the doctors, a booking form that does nothing yet |
 | 2 | React and TypeScript: a slot picker driven by hard-coded data |
@@ -45,7 +45,7 @@ reschedule flow (harder than it looks), an SMS reminder.
 ## What will bite you
 
 - **Time zones and clock maths.** Store UTC, render local. Decide early whether a slot is 15 or 30
-  minutes and keep it fixed; variable durations are a Week 5 problem.
+  minutes and keep it fixed; variable durations are a later problem.
 - **The race.** Two patients tap the last 10:00 slot at once. One must fail cleanly. A unique
   constraint on `(doctor_id, start)` in the database is the real fix — not a check in your code.
 - **Do not store real patient data.** Seed it with invented names. Health records are not a thing
@@ -53,5 +53,5 @@ reschedule flow (harder than it looks), an SMS reminder.
 
 ## Why this scores well
 
-The double-booking rule gives you something precise to test, so the eight tests in Week 4 write
+The double-booking rule gives you something precise to test, so the eight tests in stage 4 write
 themselves, and your end-to-end flow — book, see it, cancel, see it freed — is obvious.

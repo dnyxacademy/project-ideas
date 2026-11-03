@@ -14,7 +14,7 @@ it, or what is three months overdue.
 - **A member** searches the catalogue, sees if a copy is free, and reserves it.
 - **A librarian** issues and returns copies, and chases what is overdue.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Sign in. Members search and reserve; librarians issue, return and see overdue items.
 - Catalogue search by title, author or ISBN, with availability shown.
@@ -27,9 +27,9 @@ it, or what is three months overdue.
 `member`, `book` (title, author, isbn), `copy` (book, condition, status), `loan` (copy, member,
 issued, due, returned). Four tables, and the book-versus-copy distinction is the interesting bit.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static catalogue and book detail page, responsive |
 | 2 | React and TypeScript: search, availability badges |
@@ -46,7 +46,7 @@ issued, due, returned). Four tables, and the book-versus-copy distinction is the
 
 ## Why this scores well
 
-The schema is the most interesting of the six, which makes your Week 3 schema diagram worth looking
+The schema is the most interesting of the six, which makes your stage 3 schema diagram worth looking
 at, and the overdue calculation is easy to test.
 
 ## Stretch
