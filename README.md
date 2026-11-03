@@ -1,7 +1,7 @@
 # Project ideas
 
-Eleven project briefs for people learning **full-stack web development** or **AI** — each one scoped
-to what you can genuinely finish in about four weeks, part-time, starting from close to zero.
+Eleven project briefs for people learning **full-stack web development** or **AI** — each one small
+enough to actually finish, starting from close to zero.
 
 Most project lists you find online describe platforms built over months by people who already know
 the stack. These are deliberately smaller, and each one says plainly what the minimum is.
@@ -11,7 +11,7 @@ Every brief gives you:
 - the problem, and who actually has it
 - **a minimum worth shipping** — strict, and achievable
 - a table sketch (web) or a dataset-and-documents shape (AI)
-- a week-by-week build order
+- a four-stage build order — stages, not a schedule, so take as long as each needs
 - **the specific things that will trip you up**, which is the part most lists leave out
 - stretch goals for when you are ahead
 
@@ -28,7 +28,7 @@ Free to use, adapt and teach from, with credit — CC BY 4.0.
 | [Library management](web/library-management.md) | comfortable | The best schema here: books versus copies |
 | [Fresher job board](web/job-board.md) | ambitious | Three roles, so authorisation everywhere |
 
-More detail, and the shared four-week arc: [web/README.md](web/README.md)
+More detail, and the shared four-stage arc: [web/README.md](web/README.md)
 
 ## AI
 
@@ -45,8 +45,8 @@ and finding only one of the two is how the retrieval work goes wrong later.
 
 ## How to choose
 
-1. **Will you still care about it in week three?** That is the only question that really matters.
-   Week three is the heaviest, and interest is what gets you through it.
+1. **Will you still care about it three stages in?** That is the only question that really matters.
+   Stage 3 is the heaviest, and interest is what gets you through it.
 2. **Be honest about your level.** "Gentle" is not a lesser choice. A finished small project is
    worth far more than an ambitious half-built one, and anyone reviewing your work has seen plenty
    of both.
@@ -58,8 +58,8 @@ and finding only one of the two is how the retrieval work goes wrong later.
 
 | Level | Means |
 |---|---|
-| gentle | You have not written code before. The minimum is reachable by week three, leaving room to polish |
-| comfortable | You can give the four weeks properly. Most people should be here |
+| gentle | You have not written code before. The minimum is reachable by stage 3, leaving room to polish |
+| comfortable | You can give all four stages proper time. Most people should be here |
 | ambitious | You have built something before. There is real difficulty in it, and it can be cut back if it slips |
 
 ## Scope, honestly
@@ -69,8 +69,10 @@ ahead — not a checklist. **Shipping the minimum, tested and deployed, with an 
 for more than a sprawling unfinished platform.** That is true whether someone is marking it or you
 are showing it to an employer.
 
-Assume three to four hours a day. Below that, four weeks is not enough, and it is better to know
-that at the start than in week three.
+Each brief is roughly four stages of work. How long a stage takes is up to you: a week each if you
+are on a taught course, longer if you are fitting it around a job or a degree. What does not work is
+stopping after stage 2 — a front end with no data behind it is the most common abandoned project
+there is.
 
 ## Bring your own idea
 
@@ -81,7 +83,7 @@ thing to get reviewed before you start building.
 ## More ideas, and places to go deeper
 
 Other people's lists, worth browsing — especially if none of the briefs above appeals. They are not
-ours, we do not control them, and most are pitched at a bigger scope than four weeks. Read them for
+ours, we do not control them, and most are pitched at a far bigger scope than these. Read them for
 the idea, then cut it down to the minimum you can actually ship.
 
 ### Idea catalogues

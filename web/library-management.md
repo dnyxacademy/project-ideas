@@ -27,9 +27,9 @@ it, or what is three months overdue.
 `member`, `book` (title, author, isbn), `copy` (book, condition, status), `loan` (copy, member,
 issued, due, returned). Four tables, and the book-versus-copy distinction is the interesting bit.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static catalogue and book detail page, responsive |
 | 2 | React and TypeScript: search, availability badges |
@@ -46,7 +46,7 @@ issued, due, returned). Four tables, and the book-versus-copy distinction is the
 
 ## Why this scores well
 
-The schema is the most interesting of the six, which makes your Week 3 schema diagram worth looking
+The schema is the most interesting of the six, which makes your stage 3 schema diagram worth looking
 at, and the overdue calculation is easy to test.
 
 ## Stretch

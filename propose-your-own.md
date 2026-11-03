@@ -5,7 +5,7 @@ Bring your own idea — the best projects usually are. Fill this in before you w
 If someone is mentoring you, get it reviewed first. On the Dnyx Academy programme that means a
 mentor's approval by **Tuesday of Week 1** — post it in your batch chat or your lesson Q&A.
 
-Keep it to one page. If you cannot describe it in one page, it is too big for four weeks.
+Keep it to one page. If you cannot describe it in one page, it is too big.
 
 ---
 
@@ -27,7 +27,7 @@ Who has this problem today, and what do they do instead? Two or three sentences.
 - **Role:** what they want to get done
 - **Role:** what they want to get done
 
-Two roles is plenty. Three is the most a four-week project can carry.
+Two roles is plenty. Three is the most a project this size can carry.
 
 ## The minimum I will ship
 
@@ -70,13 +70,13 @@ something you hid.
 
 ## Why I want to build this
 
-One or two lines. This is the thing that will get you through the heaviest week.
+One or two lines. This is the thing that will get you through the heaviest stage.
 
 ---
 
 ## What a reviewer is checking
 
-- **Is it finishable?** In four weeks, part-time, starting from close to zero.
+- **Is it finishable?** Starting from close to zero, in the time you actually have.
 - **Does it reach the bar?** Three related tables and a testable flow, or a dataset plus documents
   plus three tools.
 - **Is the data real and allowed?** No scraped personal data, no dataset you cannot access, no

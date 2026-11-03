@@ -27,9 +27,9 @@ groups where listings scroll away in an hour and nobody can search last week's m
 `user`, `listing` (seller, title, price, category, status), `category`, and `message` or `interest`
 if you add contact in-app. Three tables minimum, four if you add messaging.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static listing grid and a detail page, responsive, with placeholder items |
 | 2 | React and TypeScript: the grid, filters and search over mock data |

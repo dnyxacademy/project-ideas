@@ -1,17 +1,20 @@
 # Web development project ideas
 
-Six briefs, all of them shaped to the same four-week arc. It is the arc the Dnyx Academy
-programme follows, and a sensible build order on your own:
+Six briefs, all of them shaped to the same four stages:
 
-| Week | What the project becomes |
+| Stage | What the project becomes |
 |---|---|
 | 1 | A responsive static prototype, deployed |
 | 2 | A typed React front end, with Tailwind |
 | 3 | Next.js, an Express API and PostgreSQL |
 | 4 | Sign-in, tests in CI, shipped, demoed |
 
+**These are stages, not a schedule.** Take as long as each one needs — a stage might be a week
+if you are on a taught programme, or a month if you are fitting this around a job. The order is
+what matters.
+
 So picking a brief is picking a **domain**, not a different amount of work. Each page lists its
-minimum, a table sketch, a week-by-week shape, stretch goals, and the specific things that will
+minimum, a table sketch, a stage-by-stage shape, stretch goals, and the specific things that will
 trip you up.
 
 | Idea | Level |

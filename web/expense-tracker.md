@@ -28,9 +28,9 @@ promise to settle, and a month later nobody remembers.
 `user`, `group`, `group_member`, `expense`, `expense_share`. Five tables, and a genuine join table —
 good material for the schema diagram.
 
-## Week by week
+## Stage by stage
 
-| Week | What exists at the end |
+| Stage | What exists at the end |
 |---|---|
 | 1 | Static dashboard and add-expense form, responsive |
 | 2 | React and TypeScript: the form, a list, balances computed in the browser |
