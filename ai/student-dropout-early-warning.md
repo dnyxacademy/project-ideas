@@ -23,7 +23,7 @@ then note the F1 for the at-risk class specifically — this is the metric that 
 usually much worse than the accuracy.
 
 **Week 2:** a small network on the same features. Say honestly whether it beat the baseline. On
-tabular data of a few thousand rows it often will not, and writing that down is worth more marks
+tabular data of a few thousand rows it often will not, and writing that down is worth far more
 than hiding it.
 
 ## Weeks 3 and 4: the assistant

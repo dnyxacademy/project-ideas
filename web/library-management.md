@@ -14,7 +14,7 @@ it, or what is three months overdue.
 - **A member** searches the catalogue, sees if a copy is free, and reserves it.
 - **A librarian** issues and returns copies, and chases what is overdue.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Sign in. Members search and reserve; librarians issue, return and see overdue items.
 - Catalogue search by title, author or ISBN, with availability shown.

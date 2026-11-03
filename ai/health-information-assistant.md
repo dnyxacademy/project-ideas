@@ -7,7 +7,7 @@ when it should.
 
 **Read this first.** This is the hardest project here, and not because of the code. A health tool
 that sounds confident and is wrong can hurt someone. If you pick it, your project is judged partly
-on how well it refuses. If that does not appeal, pick another domain — nobody loses marks for it.
+on how well it refuses. If that does not appeal, pick another domain — there is no penalty for it.
 
 ## The problem
 

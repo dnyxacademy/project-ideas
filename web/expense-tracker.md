@@ -14,7 +14,7 @@ promise to settle, and a month later nobody remembers.
 - **A member** adds an expense, says who paid and who shares it, and sees what they owe.
 - **A group** wants one number each at the end of the month, not a spreadsheet argument.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Sign in, create a group, invite others by email.
 - Add an expense: amount, description, date, category, who paid, who it is split between.
@@ -39,7 +39,7 @@ good material for the schema diagram.
 
 ## What will bite you
 
-- **Never use floats for money.** Store paise as integers. `0.1 + 0.2` is not `0.3`, and a mentor
+- **Never use floats for money.** Store paise as integers. `0.1 + 0.2` is not `0.3`, and a reviewer
   will check this one specifically.
 - **Splitting 100 by 3** leaves a paisa. Decide who gets it (the payer, by convention) and test it.
 - **Balance maths** is the hard part, not the UI. Write the balance function first, test it with

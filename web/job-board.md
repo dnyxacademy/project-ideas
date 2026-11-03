@@ -16,7 +16,7 @@ filtering and finds four relevant posts.
 - **An employer** posts a role and reads applications in one place.
 - **An admin** approves employers, so the board does not fill with spam.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Three roles: candidate, employer, admin. Sign-in tells them apart.
 - An employer posts a job: title, description, location, remote flag, salary range, deadline.

@@ -15,7 +15,7 @@ when it gets busy, and cannot tell a caller what is free next Tuesday without fl
 - **A patient** wants the first free slot with a particular doctor, without calling.
 - **The receptionist** wants today's list, and to block a slot when a doctor is away.
 
-## The minimum, by 28 November
+## The minimum worth shipping
 
 - Sign in. A patient sees only their own appointments; staff see everyone's.
 - Pick a doctor, see free slots for the next 14 days, book one, get it confirmed on screen.

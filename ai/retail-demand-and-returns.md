@@ -42,7 +42,7 @@ the answer with confidence.
 ## What will bite you
 
 - **Never split time-series data randomly.** Training on next month and testing on last month leaks
-  the future and gives a beautiful, meaningless score. Split by date. Mentors look for this one.
+  the future and gives a beautiful, meaningless score. Split by date. Reviewers look for this one.
 - **Seasonality.** A festival week is not a normal week. Say what your model cannot see.
 - **Policy answers have consequences.** If it tells a customer they can return something they
   cannot, the shop is on the hook. The agent should quote, and point to a human.

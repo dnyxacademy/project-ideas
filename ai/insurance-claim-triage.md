@@ -21,7 +21,7 @@ datasets work just as well if you prefer lending to insurance.
 **Baseline (Week 1):** logistic regression. These datasets are **badly unbalanced** — perhaps two
 percent of claims are flagged — so a model that says "fine" to everything scores 98 percent
 accuracy and is worthless. Showing that you noticed, and switching to precision, recall and the
-confusion matrix, is half the marks for Week 1.
+confusion matrix, is half the value of the first week's work.
 
 **Week 2:** a network, plus a word on class weighting or resampling and whether it helped.
 

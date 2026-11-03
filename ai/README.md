@@ -1,7 +1,7 @@
 # AI project ideas
 
-Every AI project runs the same four-week arc, so what you choose is a **domain**, not a different
-shape of work:
+Every AI project here runs the same four-week arc, so what you choose is a **domain**, not a
+different shape of work:
 
 | Week | Layer |
 |---|---|
@@ -17,8 +17,8 @@ Week 3:
 2. **A set of documents** — guidelines, rules, manuals, FAQs, reports — for the retrieval work in
    Weeks 3 and 4.
 
-Pick your domain in Week 1, find both before Saturday, and get them approved. "I will find documents
-later" is how people end up rebuilding in Week 3.
+Pick your domain first and find both before you write any code. "I will find documents later" is
+how people end up rebuilding everything in week three.
 
 ## Finding data
 
@@ -34,8 +34,7 @@ removed.
 ## The five below are starting points
 
 Each one names a prediction task, the kind of documents to pair with it, and three tools for the
-Week 4 agent. Change the country, the crop, the subject or the scale freely — a project you care
-about is one you will still be working on at 11pm in Week 3.
+agent. Change the country, the crop, the subject or the scale freely — a project you care about is
+one you will still be working on at 11pm in week three.
 
-Your own idea is welcome. Use [propose-your-own.md](../propose-your-own.md) and get it approved by
-Tuesday of Week 1.
+Your own idea is welcome. Use [propose-your-own.md](../propose-your-own.md).

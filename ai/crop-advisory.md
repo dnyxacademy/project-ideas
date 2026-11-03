@@ -21,8 +21,8 @@ real area, production and rainfall series by district if you want something mess
 interesting.
 
 **Baseline (Week 1):** a decision tree. These datasets often give suspiciously high accuracy — if
-you see 99 percent, something is leaking. Find out what before you celebrate; that investigation is
-worth marks.
+you see 99 percent, something is leaking. Find out what before you celebrate — that
+investigation is worth more than the score.
 
 **Week 2:** a network on the same features, or a transfer-learned image model for leaf disease if
 you would rather work with photographs.

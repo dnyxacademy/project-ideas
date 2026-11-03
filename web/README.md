@@ -1,6 +1,7 @@
 # Web development project ideas
 
-Six briefs, all of them shaped to the same four-week arc:
+Six briefs, all of them shaped to the same four-week arc. It is the arc the Dnyx Academy
+programme follows, and a sensible build order on your own:
 
 | Week | What the project becomes |
 |---|---|
@@ -23,8 +24,7 @@ trip you up.
 | [Fresher job board](job-board.md) | ambitious |
 
 Every one of them needs **three related tables, validation, sign-in, eight tests with one
-end-to-end flow, and a deployed front end and API** — that is the final-project bar, not something
-each brief invents.
+end-to-end flow, and a deployed front end and API** — that is one shared bar, not something each
+brief invents. It is also a reasonable definition of done for a portfolio project.
 
-Your own idea is welcome: [propose-your-own.md](../propose-your-own.md), approved by Tuesday of
-Week 1.
+Your own idea is welcome: [propose-your-own.md](../propose-your-own.md).
